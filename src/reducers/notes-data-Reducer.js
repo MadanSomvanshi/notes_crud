@@ -1,7 +1,7 @@
 import AppConstants from '../constants';
 
 const initialState = {
-  notesData: [1,2,3,4],
+  notesData: [],
 };
 
 const NotesDataReducer = (state = initialState, action) => {
