@@ -1,0 +1,23 @@
+.dashBoardPage {
+  background-color: powderblue;
+  margin-top: 50px;
+  padding: 20px;
+  .listWrap {
+    background-color: #333;
+    height: 100%;
+  }
+  label {
+    width: 50px;
+    margin-right: 10px;
+  }
+  .listWrap {
+    padding: 0 10px;
+  }
+  .listItem {
+    color: #fff;
+    border-bottom: 1px solid #ffff;
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
+}

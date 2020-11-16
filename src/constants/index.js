@@ -1,0 +1,8 @@
+export default {
+  SET_NOTES_DATA: 'SET_NOTES_DATA',
+  SET_USER_DATA: 'SET_USER_DATA',
+  STATUS_CODES: {
+    STATUS_OK: 200,
+    STATUS_FAIL: 500,
+  }
+}
